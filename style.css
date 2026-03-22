@@ -8,7 +8,7 @@
 .header {
     background-color: #04152d;
     color: white;
-    padding: 0 20vw;
+    padding: 0 20vw 20px;
 }
 
 nav {
@@ -61,4 +61,37 @@ h1 {
 .introduction img {
     min-width: 0;
     object-fit: cover;
+}
+
+/* content 1 */
+
+.content-1 {
+    padding: 30px 20vw 50px;
+    text-align: center;
+}
+
+.content-1 > div {
+    display: flex;
+    margin: 30px 0;
+    gap: 20px;
+}
+
+.frame {
+    min-width: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.frame img {
+    flex: 1 1 0;
+    object-fit: cover;
+    aspect-ratio: 1;
+    border-radius: 8px;
+    border: 4px solid #04152d;
+    margin: 0 0 10px;
+}
+
+.frame p {
+    font-size: 14px;
 }
