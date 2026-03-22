@@ -95,3 +95,22 @@ h1 {
 .frame p {
     font-size: 14px;
 }
+
+/* content 2 */
+
+.content-2 {
+    background-color: rgb(194, 209, 255);
+    color: #04152d;
+    padding: 50px 20vw;
+    text-align: center;
+}
+
+.content-2 p {
+    font-size: 23px;
+}
+
+.content-2 p:nth-child(2) {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+}
