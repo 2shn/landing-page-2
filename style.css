@@ -99,7 +99,7 @@ h1 {
 /* content 2 */
 
 .content-2 {
-    background-color: rgb(194, 209, 255);
+    background-color: rgb(211, 217, 232);
     color: #04152d;
     padding: 50px 20vw;
     text-align: center;
@@ -113,4 +113,38 @@ h1 {
     font-size: 16px;
     font-weight: 600;
     text-align: right;
+}
+
+/* content 4 */
+
+.content-4 {
+    padding: 40px 15vw;
+}
+
+.content-4 > div {
+    background-color: #5789d8;
+    padding: 30px 70px;
+    display: flex;
+    border-radius: 10px;
+    color: white;
+    justify-content: space-between;
+    gap: 5vw;
+}
+
+.content-4 p:first-child {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.content-4 p:last-child {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.content-4 button {
+    padding: 0px 30px;
+    background-color: #5789d8;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
 }
