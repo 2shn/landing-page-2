@@ -118,7 +118,7 @@ h1 {
 /* content 4 */
 
 .content-4 {
-    padding: 40px 15vw;
+    padding: 60px 15vw;
 }
 
 .content-4 > div {
@@ -129,6 +129,7 @@ h1 {
     color: white;
     justify-content: space-between;
     gap: 5vw;
+    align-items: stretch;
 }
 
 .content-4 p:first-child {
@@ -147,4 +148,12 @@ h1 {
     color: white;
     border: 2px solid white;
     border-radius: 7px;
+    max-height: 40px;
+}
+
+.footer {
+    background-color:#35435b;
+    padding: 40px 20vw;
+    color: white;
+    text-align: center;
 }
